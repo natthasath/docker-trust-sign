@@ -11,8 +11,10 @@ services:
 
 networks:
   default:
+    name: docker_trust_sign_network
     driver: bridge
 
 volumes:
   data:
+    name: docker_trust_sign_data
     driver: local
